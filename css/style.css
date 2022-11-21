@@ -1,14 +1,13 @@
-html,body 
-{
+html,
+body {
   height: 100%;
   width: 100%;
-  background-color: #5B78A0;
+  background-color: #5b78a0;
 }
 
-* 
-{
+* {
   box-sizing: border-box;
-  margin:  0;
+  margin: 0;
   padding: 0;
 }
 
@@ -47,7 +46,7 @@ html,body
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  background-color: #BD8238;
+  background-color: #bd8238;
   z-index: 9;
   transition: height 0.3s;
 }
@@ -86,7 +85,7 @@ html,body
 }
 
 .circle .social:hover {
- color: #5B78A0;
+  color: #5b78a0;
 }
 
 .circle .social:nth-child(2) {
@@ -129,7 +128,7 @@ html,body
   height: calc(80px + 20px);
   width: calc(80px + 20px);
   border-radius: calc(100px / 2);
-  background-color: #C8D9F2;
+  background-color: #c8d9f2;
 }
 
 .icon-home,
@@ -141,5 +140,5 @@ html,body
 
 .icon-home:hover,
 .icon-settings:hover {
-  color:  #BD8238;
+  color: #bd8238;
 }
